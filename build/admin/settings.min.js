@@ -1,0 +1,1 @@
+window.githubauthvideo_showPassword=function(t){const e=document.getElementById(t);e&&e.type&&("password"===e.type?e.type="text":e.type="password")};

@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '56cba68cc1b14553f52b2e1a20d5f34f519b0241',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '56cba68cc1b14553f52b2e1a20d5f34f519b0241',
+            'dev_requirement' => false,
+        ),
+        'lcobucci/jwt' => array(
+            'pretty_version' => '3.4.5',
+            'version' => '3.4.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../lcobucci/jwt',
+            'aliases' => array(),
+            'reference' => '511629a54465e89a31d3d7e4cf0935feab8b14c1',
+            'dev_requirement' => false,
+        ),
+        'ralouphie/mimey' => array(
+            'pretty_version' => '2.1.0',
+            'version' => '2.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ralouphie/mimey',
+            'aliases' => array(),
+            'reference' => '8f74e6da73f9df7bd965e4e123f3d8fb9acb89ba',
+            'dev_requirement' => false,
+        ),
+    ),
+);

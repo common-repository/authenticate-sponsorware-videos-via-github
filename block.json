@@ -1,0 +1,14 @@
+{
+	"name": "phonicscore/githubauthvideo",
+	"title": "Github Authenticated Video",
+	"category": "media",
+	"icon": "video-alt2",
+	"description": "Video that is behind github oauth prompt. Checks for sponsorship",
+	"textdomain": "githubauthvideo",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
